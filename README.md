@@ -1,2 +1,1 @@
-# PC
-Test PC
+# Pensamiento Computacional
