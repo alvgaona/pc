@@ -50,24 +50,26 @@ def heron(objective, initial):
     return g
 
 print(heron(100, 20))
-print(heron(10000, 20))
+print(heron(10000, 20))objective
 print(heron(16, 20))
 print(heron(81, 20))
 
 # %%
 
-def heron_iteration(g, objective):
-    return (g + objective/g)/2
 
 def heron(objective, initial):
     g = initial
-    g = heron_iteration(g, objetivo)
-    g = heron_iteration(g, objetivo)
-    g = heron_iteration(g, objetivo)
-    g = heron_iteration(g, objetivo)
-    g = heron_iteration(g, objetivo)
+    
+    g = heron_iteration(g, objective)
+    g = heron_iteration(g, objective)
+    g = heron_iteration(g, objective)
+    g = heron_iteration(g, objective)
+    g = heron_iteration(g, objective)
     
     return g
+
+def heron_iteration(g, objective):
+    return (g + objective/g)/2
 
 print(heron(100, 20))
 print(heron(10000, 20))
@@ -79,12 +81,14 @@ print(heron(81, 20))
 
 def heron(objective: float, initial: float, n: int):
     g = initial
+    
     for i in range(0, n):
         g = (g + objective/g)/2
+        print("Hello")
     
     return g
 
-print(heron(100, 20, 5))
-print(heron(10000, 20, 5))
-print(heron(16, 20, 5))
-print(heron(81, 20, 5))
+print(heron(100, 20, 100))
+#print(heron(10000, 20, 5))
+#print(heron(16, 20, 5))
+#print(heron(81, 20, 5))

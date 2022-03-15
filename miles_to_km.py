@@ -7,16 +7,18 @@ millas a kilómetros. Se debe imprimir los siguientes mensajes:
 """
 
 
-def miles_to_km(miles: float):
+def miles_to_km(miles):
+    """
+    Calcula millas a kilometros
+    """
     return miles * 1.6
 
 
-def main():
+def actividad1():
     print("Bienvenido, Alvaro")
     miles = input("Ingrese las millas a convertir: ")
-    km = miles_to_km(int(miles))
+    km = miles_to_km(float(miles))
     print(f"La conversión resulta: {km} km.")
 
 
-if __name__ == '__main__':
-    main()
+actividad1()

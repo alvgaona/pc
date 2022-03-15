@@ -12,7 +12,7 @@ print("Today we're studying " + "programming")
 # %% Format string opt. 1
 message = "programming"
 
-print("Today we're studying %s" % message)
+print("Today we're studying %s %s" % (message, "otra cosa"))
 
 # %% Format with f-strings
 message = "conditionals"
