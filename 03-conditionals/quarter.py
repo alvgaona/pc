@@ -13,11 +13,16 @@ def quarter(month):
         return "Q4"
 
 
-month = ask_for_month()
-
-while month < 1 or month > 12:
+def main():
     month = ask_for_month()
 
-q = quarter(month)
+    while month < 1 or month > 12:
+        month = ask_for_month()
 
-print(f"Usted esta en el {q}")
+    q = quarter(month)
+
+    print(f"Usted esta en el {q}")
+
+
+if __name__ == '__main__':
+    main()

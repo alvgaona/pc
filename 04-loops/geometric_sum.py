@@ -4,7 +4,6 @@ Computar la suma geométrica:
 """
 
 
-
 def main():
     sum = geometric_sum(1, 1, 10)
 

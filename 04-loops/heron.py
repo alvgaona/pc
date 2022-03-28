@@ -50,7 +50,7 @@ def heron(objective, initial):
     return g
 
 print(heron(100, 20))
-print(heron(10000, 20))
+print(heron(10000, 20))objective
 print(heron(16, 20))
 print(heron(81, 20))
 
@@ -78,6 +78,7 @@ print(heron(81, 20))
 
 # %%
 
+
 def heron(objective: float, initial: float, n: int):
     g = initial
     
@@ -88,6 +89,6 @@ def heron(objective: float, initial: float, n: int):
     return g
 
 print(heron(100, 20, 100))
-print(heron(10000, 20, 5))
-print(heron(16, 20, 5))
-print(heron(81, 20, 5))
+#print(heron(10000, 20, 5))
+#print(heron(16, 20, 5))
+#print(heron(81, 20, 5))

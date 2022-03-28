@@ -14,11 +14,11 @@ def miles_to_km(miles):
     return miles * 1.6
 
 
-def actividad1():
-    print("Bienvenido, Alvaro")
+def main():
     miles = input("Ingrese las millas a convertir: ")
     km = miles_to_km(float(miles))
     print(f"La conversión resulta: {km} km.")
 
 
-actividad1()
+if __name__ == '__main__':
+    main()
