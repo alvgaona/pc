@@ -1,13 +1,13 @@
 """
-Un instagramer que reseña restaurantes desea automatizar 
-la calificación y el cálculo del costo total incluyendo 
-propina de cada cena mediante un script de python. 
-El programa debe pedir el ingreso del nombre del restaurante, 
-la calificación (':(', ':|', ':)',':D'), el costo del menú y el 
-porcentaje a dejar de propina. Finalmente se debe imprimir un 
+Un instagramer que reseña restaurantes desea automatizar
+la calificación y el cálculo del costo total incluyendo
+propina de cada cena mediante un script de python.
+El programa debe pedir el ingreso del nombre del restaurante,
+la calificación (':(', ':|', ':)',':D'), el costo del menú y el
+porcentaje a dejar de propina. Finalmente se debe imprimir un
 resumen con la descripción de los datos ingresados y el gasto total.
 
-Para el cálculo del gasto total incluir redondeo al entero más 
+Para el cálculo del gasto total incluir redondeo al entero más
 cercano. Guardar el programa en un archivo que se llame menu.py.
 """
 

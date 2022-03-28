@@ -1,0 +1,9 @@
+[flake8]
+exclude = .venv, .git, .tox, docs, venv, bin, lib, deps, build, thirdparty, __init__.py
+doctests = True
+max-line-length = 120
+inline_quotes = double
+no_accept_encodings = true
+docstring_convention = google
+
+extend-ignore = E501, W503, E201, E231, E241, E261, E262, E265, D1, D200, E203, P101
