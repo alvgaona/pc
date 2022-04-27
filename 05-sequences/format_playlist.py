@@ -1,5 +1,4 @@
 # https://www.codewars.com/kata/61a87854b4ae0b000fe4f36b
-
 """
 Your task is to write a function, called format_playlist, that takes a list of songs as input.
 

@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 """
 DNA molecules are made of two twisting, paired strands. Each strand is made of four chemical units,
 called nucleotide bases. The bases are adenine (A), thymine (T), guanine (G) and cytosine (C).
@@ -119,7 +118,8 @@ def compress_generator(strand: str):
 def main():
     strand = 'AAACTTTTTAGCCCCCCCGGGGTTTTTAAA'
 
-    assert compress(strand) == '3AC5TAG7C4G5T3A'
+    print(compress(strand))
+
     assert compress_prima(strand) == '3AC5TAG7C4G5T3A'
     assert ''.join(compress_generator(strand)) == '3AC5TAG7C4G5T3A'
 

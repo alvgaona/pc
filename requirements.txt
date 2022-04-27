@@ -1,3 +1,4 @@
 isort
 yapf
 flake8
+pytest

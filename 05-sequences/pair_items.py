@@ -1,5 +1,4 @@
 # https://www.codewars.com/kata/61055e2cb02dcb003da50cd5
-
 """
 Write a function with the following properties:
 
@@ -23,3 +22,15 @@ Expected Result:
 
 [[('c', 'w'), ('o', 'a'), ('d', 'r'), ('e', 's')]]
 """
+
+
+def pair_elements(array_one, two_array):
+    result = []
+
+    for first, second in zip(array_one, two_array):
+        result.append((first, second))
+
+    return result
+
+
+print(pair_elements(['c', 'o', 'd', 'e'], ['w', 'a', 'r', 's']))
